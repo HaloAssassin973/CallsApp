@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0pf-zf-Uzl">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--TAB1-->
+        <scene sceneID="lul-XY-zz3">
+            <objects>
+                <viewController id="9es-pW-Oo8" customClass="DetailViewController" customModule="CallsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zw0-oI-fI4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oft-2A-0bM">
+                                <rect key="frame" x="27" y="152" width="33" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.37647058823529411" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="call inbound missedicon" translatesAutoresizingMaskIntoConstraints="NO" id="TIJ-wd-uSu">
+                                <rect key="frame" x="23.5" y="104" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="1nG-Ek-z5g"/>
+                                    <constraint firstAttribute="height" constant="40" id="md6-VZ-Pi8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H84-Qe-cvB">
+                                <rect key="frame" x="79.5" y="117" width="334.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfd-sc-mWd">
+                                <rect key="frame" x="79.5" y="144.5" width="334.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.37647058823529411" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Business number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wla-aE-Rfb">
+                                <rect key="frame" x="79.5" y="191.5" width="334.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.62745098039215685" green="0.62745098039215685" blue="0.62745098039215685" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96c-3V-VfP">
+                                <rect key="frame" x="79.5" y="215.5" width="334.5" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jYN-cz-cIZ">
+                                <rect key="frame" x="79.5" y="240.5" width="334.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.37647058823529411" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Yqy-xj-RfL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="96c-3V-VfP" firstAttribute="top" secondItem="wla-aE-Rfb" secondAttribute="bottom" constant="8" id="00u-Vx-NOc"/>
+                            <constraint firstItem="Yqy-xj-RfL" firstAttribute="trailing" secondItem="hfd-sc-mWd" secondAttribute="trailing" id="1se-w4-DbP"/>
+                            <constraint firstItem="oft-2A-0bM" firstAttribute="top" secondItem="TIJ-wd-uSu" secondAttribute="bottom" constant="8" id="1yY-Bz-tka"/>
+                            <constraint firstItem="wla-aE-Rfb" firstAttribute="top" secondItem="hfd-sc-mWd" secondAttribute="bottom" constant="30" id="45h-A3-Y6c"/>
+                            <constraint firstItem="Yqy-xj-RfL" firstAttribute="trailing" secondItem="H84-Qe-cvB" secondAttribute="trailing" id="8GY-YW-ywS"/>
+                            <constraint firstItem="TIJ-wd-uSu" firstAttribute="centerX" secondItem="oft-2A-0bM" secondAttribute="centerX" id="CJx-SF-2Y1"/>
+                            <constraint firstItem="jYN-cz-cIZ" firstAttribute="top" secondItem="96c-3V-VfP" secondAttribute="bottom" constant="4" id="Fsj-wQ-K5F"/>
+                            <constraint firstItem="oft-2A-0bM" firstAttribute="leading" secondItem="Yqy-xj-RfL" secondAttribute="leading" constant="27" id="Hp3-xu-ulK"/>
+                            <constraint firstItem="wla-aE-Rfb" firstAttribute="leading" secondItem="TIJ-wd-uSu" secondAttribute="trailing" constant="16" id="PKM-74-DIB"/>
+                            <constraint firstItem="Yqy-xj-RfL" firstAttribute="trailing" secondItem="jYN-cz-cIZ" secondAttribute="trailing" id="VyF-g4-CPx"/>
+                            <constraint firstItem="H84-Qe-cvB" firstAttribute="top" secondItem="Yqy-xj-RfL" secondAttribute="top" constant="29" id="a2u-p3-eiq"/>
+                            <constraint firstItem="hfd-sc-mWd" firstAttribute="top" secondItem="H84-Qe-cvB" secondAttribute="bottom" constant="7" id="fSl-IE-USc"/>
+                            <constraint firstItem="Yqy-xj-RfL" firstAttribute="trailing" secondItem="96c-3V-VfP" secondAttribute="trailing" id="fzE-YO-w5O"/>
+                            <constraint firstItem="Yqy-xj-RfL" firstAttribute="trailing" secondItem="wla-aE-Rfb" secondAttribute="trailing" id="lB3-wy-I5m"/>
+                            <constraint firstItem="jYN-cz-cIZ" firstAttribute="leading" secondItem="TIJ-wd-uSu" secondAttribute="trailing" constant="16" id="lXf-fl-gJb"/>
+                            <constraint firstItem="TIJ-wd-uSu" firstAttribute="top" secondItem="Yqy-xj-RfL" secondAttribute="top" constant="16" id="sg7-8n-Keh"/>
+                            <constraint firstItem="H84-Qe-cvB" firstAttribute="leading" secondItem="TIJ-wd-uSu" secondAttribute="trailing" constant="16" id="swP-4o-7fE"/>
+                            <constraint firstItem="hfd-sc-mWd" firstAttribute="leading" secondItem="TIJ-wd-uSu" secondAttribute="trailing" constant="16" id="w0l-w2-Xnx"/>
+                            <constraint firstItem="96c-3V-VfP" firstAttribute="leading" secondItem="TIJ-wd-uSu" secondAttribute="trailing" constant="16" id="xxJ-wY-JiL"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="TAB1" id="xMF-Tt-HUV"/>
+                    <navigationItem key="navigationItem" id="DDD-sS-VuL"/>
+                    <connections>
+                        <outlet property="businessNameLabel" destination="96c-3V-VfP" id="4U3-VC-iFd"/>
+                        <outlet property="businessPhoneNumberLabel" destination="jYN-cz-cIZ" id="L04-W6-Qjg"/>
+                        <outlet property="durationLabel" destination="oft-2A-0bM" id="lBC-bd-UW3"/>
+                        <outlet property="nameLabel" destination="H84-Qe-cvB" id="2jD-CF-KJh"/>
+                        <outlet property="phoneNumberLabel" destination="hfd-sc-mWd" id="Mos-JC-rNo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="taa-AG-uSh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="861" y="-239"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="U19-oH-waa">
+            <objects>
+                <navigationController id="0pf-zf-Uzl" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kA9-U7-jan">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="k9n-xF-rhe" kind="relationship" relationship="rootViewController" id="Z53-ea-4qi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="17P-07-FAH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-864" y="-10"/>
+        </scene>
+        <!--Page-->
+        <scene sceneID="x5m-Ck-oSY">
+            <objects>
+                <tabBarController id="k9n-xF-rhe" customClass="TabBarController" customModule="CallsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Page" id="cx7-Cu-iM9"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="F7E-LM-f2G">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9es-pW-Oo8" kind="relationship" relationship="viewControllers" id="A5E-5o-uQa"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gEB-g5-IKY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-95" y="-10"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="call inbound missedicon" width="40" height="40"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
